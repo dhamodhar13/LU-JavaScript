@@ -1,0 +1,21 @@
+div {
+  display: flex;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: solid 2px black;
+  min-height: 1rem;
+  flex-grow: 1;
+}
+
+.grandParent {
+  background-color: rgb(30, 184, 211);
+  flex-direction: column;
+}
+
+.parent {
+  background-color: rgb(164, 209, 168);
+}
+
+.child {
+  background-color: white;
+}

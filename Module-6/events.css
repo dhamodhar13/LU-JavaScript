@@ -1,0 +1,61 @@
+.changeColor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.changeColor__area {
+  height: 200px;
+  width: 200px;
+  border: solid 2px black;
+  margin-right: 1rem;
+}
+
+.changeColor__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* width: 30%; */
+}
+
+.changeColor__buttons > button {
+  border: solid 1px black;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  color: white;
+  margin: 0.5rem 0;
+}
+
+#red__btn {
+  background-color: red;
+}
+#green__btn {
+  background-color: green;
+}
+#yellow__btn {
+  background-color: yellow;
+  color: black;
+}
+#black__btn {
+  background-color: black;
+}
+
+#reset__btn {
+  color: black;
+  background-color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+.form__field {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}

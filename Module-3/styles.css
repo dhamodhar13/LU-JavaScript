@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins&family=Ubuntu&display=swap");
+
+body {
+  font-family: "Fira Code";
+  text-align: center;
+}
+
+.topicsList {
+  list-style: none;
+  text-align: center;
+  padding-inline-start: 0%;
+  color: #261e94;
+  font-size: 20px;
+}

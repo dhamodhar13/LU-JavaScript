@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module-7 Asychronous JavaScript</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="asynchronous.js" defer></script>
+  </head>
+  <body>
+    <div class="userInput">
+      <label for="userNameInput">Enter your GitHub User Name</label>
+      <input type="text" name="userNameInput" id="userNameInput" />
+      <button id="submitBtn">Submit</button>
+    </div>
+    <div class="userContainer">
+      <div class="userImage">
+        <img src="" alt="no image" id="userImage" />
+      </div>
+      <div class="userInfo">
+        <div class="name">
+          <span class="nameLabel">Name :</span>
+          <span id="name"></span>
+        </div>
+        <div class="userName">
+          <span class="userNameLabel">GitHub User Name :</span>
+          <span id="userName"></span>
+        </div>
+        <div class="userProfileUrl">
+          <span class="userProfileUrlLabel">GitHub Profile Link :</span>
+          <span><a href="#" id="userUrl"></a></span>
+        </div>
+        <div class="publicRepos">
+          <span class="publicReposLabel">Total Public Repos :</span>
+          <span id="publicRepos"></span>
+        </div>
+        <div class="followers">
+          <span class="followersLabel">Total Followers :</span>
+          <span id="followers"></span>
+        </div>
+        <div class="userType">
+          <span class="userTypeLabel">User Type :</span>
+          <span id="userType"></span>
+        </div>
+      </div>
+    </div>
+    <button onclick="naviagateToInfo()">Go to Info</button>
+  </body>
+</html>
